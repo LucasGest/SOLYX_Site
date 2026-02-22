@@ -148,7 +148,7 @@ nav {
 }
 
 /* ===== HERO ===== */
-#hero {
+#accueil {
   position: relative;
   z-index: 1;
   min-height: 100vh;
@@ -277,7 +277,7 @@ nav {
 }
 
 /* Logo héro centré */
-.hero-logo {
+.structure-logo {
   width: 130px;
   height: 130px;
   margin: 0 auto 2rem;
@@ -287,7 +287,7 @@ nav {
     drop-shadow(0 0 60px rgba(255, 107, 206, 0.3));
 }
 
-.hero-title {
+.structure-title {
   font-family: "Orbitron", monospace;
   font-size: clamp(4rem, 12vw, 9rem);
   font-weight: 900;
@@ -304,7 +304,7 @@ nav {
   opacity: 0;
   animation: fade-up 0.8s 0.65s forwards;
 }
-.hero-sub {
+.structure-sub {
   margin-top: 1.5rem;
   font-size: 1rem;
   color: var(--muted);
@@ -313,7 +313,7 @@ nav {
   opacity: 0;
   animation: fade-up 0.8s 0.8s forwards;
 }
-.hero-badge {
+.structure-badge {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
@@ -328,7 +328,7 @@ nav {
   opacity: 0;
   animation: fade-up 0.8s 1s forwards;
 }
-.hero-badge::before {
+.structure-badge::before {
   content: "●";
   font-size: 0.5rem;
   color: #00ff88;
